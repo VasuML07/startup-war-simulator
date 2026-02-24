@@ -92,55 +92,6 @@ This reduces token usage and improves response speed.
 ![Vercel](https://img.shields.io/badge/Vercel-Serverless-000000?style=for-the-badge&logo=vercel)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)
 
-📂 Project Structure
-startup-war-simulator
-│
-├── app/
-│   ├── api/
-│   └── page.tsx
-│
-├── components/
-│
-├── lib/
-│   ├── groq.ts
-│   ├── prompts.ts
-│   ├── ruleEngine.ts
-│   ├── deterministic.ts
-│   └── state.ts
-│
-├── public/
-├── styles/
-├── tailwind.config.js
-├── package.json
-└── README.md
-🔐 Environment Variables
-
-Create .env.local:
-
-GROQ_API_KEY=your_groq_api_key
-GROQ_MODEL=llama-3.1-8b-instant
-
-Do NOT commit this file.
-
-🖥 Local Development
-npm install
-npm run dev
-
-Open:
-
-http://localhost:3000
-🚀 Deployment (Vercel Recommended)
-
-Push repo to GitHub
-
-Import into Vercel
-
-Add environment variables
-
-Deploy
-
-No additional configuration required.
-
 🎮 Core Game Mechanics
 State Object
 {
